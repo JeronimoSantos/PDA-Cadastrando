@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+@import url('/src/css/formulario.css');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+:root {
+ --bg-url: url(/src/img/Transformers.jpg);
+ --font-family: "Bebas Neue", sans-serif;
+ --color: #f7f7f7;
+
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    background: var(--bg-url) no-repeat top
+    center/cover fixed;
+    font-family: var(--font-family);
+    color: var(--color);
 }

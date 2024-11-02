@@ -3,20 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="/global.css">
     <title>Cadastro</title>
 </head>
-<body id="content">
-    <section id="formulario">
-        <div>
-            <h1>Eu sou o Otimos Prime</h1>
-        </div>
-        <article>
-            <input type="text" placeholder="Digite seu transforme favorito" required>
-        </article>
+<body>
+<!--CABEÇALHO-->
+    <header id="cabegalho">
+        <h1 id="titulo-principal"> <u>Cadastrando</u> 📝</h1>
+        <figcaption id="legenda">
+            Seus dados seram usados exclusivamente sobre os paradigmas do propio site.
+        </figcaption>
+    </header>
 
-    </section>
-    
+<!--CONTEUDO PRINCIPAL-->
+    <main id="content">
+        <section id="primeira-section">
+            <article id="content-cadastro">
+                <h2 id="segundo-titulo">Preencha os Dados do Cadatro</h2>
+            </article>
+            <label>Nome:</label>
+            <input type="text" id="" placeholder="Digite seu Nome" required>
+            <label>Idade:</label>
+            <input type="number" id="" placeholder="Digite sua Idade" required>
+            <label>Objetivo de Vida:</label>
+            <input type="text" id="" placeholder="Digite seu Objetivo" required>
+            <label>Meta:</label>
+            <input type="number" id="" placeholder="Digite sua Meta" required>
+        </section>
+
+        <section id="segunda-section">
+            <h2 id="terceiro-titulo">Tudo Pronto?</h2>
+            <input type="checkbox" id="" required>
+        </section>
+        
+        <button id="butao-comecar" type="submit">Começar</button>
+    </main>
+
+<!--RODÁPE-->
+    <footer id="rodape">
+        <nav id="content-redes">
+            <a class="redes-sociais" href="https://www.linkedin.com/in/jeronimo-s-rodrigues-dev/" target="_blank" alt="Rede-Social-Linkedin" title="Linkedin">
+                <img src="./src/img/instagram.png"/>
+            </a>
+            <a class="redes-sociais" href="https://github.com/JeronimoSantos/PDA-Cadastrando" target="_blank" alt="Rede-Social-GitHub" title="GitHub">
+                <img src="./src/img/github.png"/>
+            </a>
+            <a class="redes-sociais" href="https://www.instagram.com/jeronimo_santos_oficial/" target="_blank" alt="Rede-Social-Instagram"  title="Instagram">
+                <img src="./src/img/linkedin.png"/>
+            </a>
+        </nav>
+    </footer>
 
     <script src="/src/js/script.js"></script>
 </body>

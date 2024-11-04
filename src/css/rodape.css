@@ -1,2 +1,34 @@
 @import url('/global.css');
 
+/* VARIÁVEIS CSS */
+:root {
+    --color-cred: #19274e;
+    --color-hover: #ffff00;
+}
+
+/* CUIDA DOS ESTILOS DO RODÁPE */
+#rodape {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+/*  CUIDA DOS ESTILOS DA NAVEGAÇÃO */
+#content-redes {
+    display: flex;
+    padding-top: 3vh;
+    gap: 3vw;
+}
+
+/* CUIDA DOS ESTILOS DO PARAGRAFO DO RODÁPE */
+.creditos {
+    font-size: 2vw;
+    color: var(--color-cred);
+}
+
+.creditos:hover {
+    cursor: pointer;
+    color: var(--color-hover);
+}

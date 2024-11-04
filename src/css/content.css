@@ -1,1 +1,110 @@
 @import url('/global.css');
+
+/* VARIÁVEIS CSS */
+:root {
+    --color-titulo: #204b5e;
+    --color-shadow: #19274e;
+    --color-hover: #ffff00;
+    --color-bg: #029daf;
+    --color-bg2: #02779e;
+}
+
+/* CUIDA DE TODOS OS ESTILOS DO CONTENT */
+#content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2vw;
+}
+
+/* CUIDA DOS ESTILOS DO SUB-TITÚLO */
+#segundo-titulo {
+    font-size: 3vw;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px var(--color-hover);
+    color: var(--color-titulo);
+}
+
+/* CUIDA DOS ESTILOS DA INTERAÇÃO COM MOUSE */
+#segundo-titulo:hover {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-hover);
+    text-shadow: 4px 4px 2px var(--color-shadow);
+}
+
+/* CUIDA DOS ESTILOS DA LISTA */
+#content-lista {
+    display: flex;
+    flex-flow: column wrap;
+    background-image: linear-gradient(to bottom, var(--color-bg), var(--color-bg2));
+    gap: 2vw;
+    padding: 5vw;
+    border: solid 1px var(--color-hover);
+    border-radius: 4vw;
+}
+
+/* CUIDA DOS ESTILOS DOS ELEMENTOS DA LISTA */
+li {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2px;
+    list-style: none;
+}
+
+/* CUIDA DOS ESTILOS DO NOME DO INPUT */
+label {
+    font-size: 2vw;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px var(--color-hover);
+    color: var(--color-shadow);
+}
+
+/* CUIDA DOS ESTILOS DA INTERAÇÃO COM MOUSE DO NOME DO INPUT */
+label:hover {
+    cursor: pointer;
+    color: var(--color-hover);
+    text-shadow: 4px 4px 4px var(--color-shadow);
+}
+
+/* CUIDA DOS ESTILOS DOS INPUTS */
+.campo-input {
+    padding: 0.50rem;
+    color: var(--color-bg);
+    border: solid 1px var(--color-hover);
+}
+
+/* CUIDA DOS ESTILOS DO TERCEIRO TITÚLO */
+#terceiro-titulo {
+    font-size: 3vw;
+    margin: 4vh 0;
+    color: var(--color-shadow);
+    font-weight: 600;
+    text-shadow: 2px 2px 2px var(--color-hover);
+}
+
+/* CUIDA DOS ESTILOS DE MOUSE DO TERCEIRO TITÚLO */
+#terceiro-titulo:hover {
+    cursor: pointer;
+    color: var(--color-hover);
+    text-shadow: 4px 4px 1px var(--color-shadow);
+}
+
+/* CUIDA DOS ESTILOS DO BUTÃO */
+#butao-comecar {
+    font-size: 2vw;
+    font-weight: 500;
+    background-color: var(--color-bg);
+    border: solid 1px var(--color-hover);
+    border-radius: 2rem;
+    padding: 2vw 4vh;
+}
+
+/* CUIDA DOS ESTILOS DE MOUSE DO BUTÃO */
+#butao-comecar:hover {
+    cursor: pointer;
+    background-color: var(--color-hover);
+    border: solid 1px var(--color-bg);
+}

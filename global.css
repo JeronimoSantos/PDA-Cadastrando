@@ -12,12 +12,10 @@
 :root {
  --bg-url: linear-gradient(to right, #5694ba, #19274e);
  --font-family: "Bebas Neue", sans-serif;
- --color: #f7f7f7;
 
 }
 
 body {
     background-image: var(--bg-url);
     font-family: var(--font-family);
-    color: var(--color);
 }

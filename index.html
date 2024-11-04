@@ -9,34 +9,43 @@
 <body>
 <!--CABEÇALHO-->
     <header id="cabegalho">
-        <h1 id="titulo-principal"> <u>Cadastrando</u> 📝</h1>
+        <h1 id="titulo-principal">Cadastrando 📝</h1>
         <figcaption id="legenda">
-            Seus dados seram usados exclusivamente sobre os paradigmas do propio site.
+            Seus dados seram usados exclusivamente para melhorias do propio site.
         </figcaption>
     </header>
 
 <!--CONTEUDO PRINCIPAL-->
     <main id="content">
         <section id="primeira-section">
-            <article id="content-cadastro">
-                <h2 id="segundo-titulo">Preencha os Dados do Cadatro</h2>
-            </article>
-            <label>Nome:</label>
-            <input type="text" id="" placeholder="Digite seu Nome" required>
-            <label>Idade:</label>
-            <input type="number" id="" placeholder="Digite sua Idade" required>
-            <label>Objetivo de Vida:</label>
-            <input type="text" id="" placeholder="Digite seu Objetivo" required>
-            <label>Meta:</label>
-            <input type="number" id="" placeholder="Digite sua Meta" required>
+                <h2 id="segundo-titulo">Preencha os Dados do Cadastro</h2>
         </section>
 
+        <form id="formulario">
+            <ul id="content-lista">
+            <li><label>Nome:</label>
+                <input type="text" id="campo-name" class="campo-input" placeholder="Digite seu Nome" required>
+            </li>
+            <li><label>Idade:</label>
+                <input type="number" id="campo-idade" class="campo-input" placeholder="Digite sua Idade" required>
+            </li>
+            <li><label>Objetivo de Vida:</label>
+                <input type="search" id="campo-vida" class="campo-input" placeholder="Digite seu Objetivo" required>
+            </li>
+            <li><label>Meta:</label>
+                <input type="date" id="campo-meta" class="campo-input" placeholder="Digite sua Meta" required>
+            </li>
+            </ul>
+
+            <h3 id="terceiro-titulo">Tudo Pronto?</h3>
+
+            <button id="butao-comecar" type="submit">Começar</button>
+        </form>
+
         <section id="segunda-section">
-            <h2 id="terceiro-titulo">Tudo Pronto?</h2>
-            <input type="checkbox" id="" required>
+            <ul id="listaCampos"></ul>
         </section>
-        
-        <button id="butao-comecar" type="submit">Começar</button>
+
     </main>
 
 <!--RODÁPE-->
@@ -52,6 +61,7 @@
                 <img src="./src/img/linkedin.png"/>
             </a>
         </nav>
+        <p class="creditos">@2024 Desenvolvido por Jerônimo S.Rodrigues</p>
     </footer>
 
     <script src="/src/js/script.js"></script>

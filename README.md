@@ -1,5 +1,6 @@
 <h1>🏆 Projeto Cadastrando-PDA</h1> 
 <p>Site de Cadastro de usuario, onde o usuario pode cadastra seu nome, idade, seu objetivo de vida e estipular sua meta.</p> 
+<p>Foi utilizado uma organização em formato de pastas tornando mais organizado os arquivos do projeto pensando em facilitar na manutenção do código.</p>
 
 <h2>💻 Tecnologias Usadas:</h2>
 <ul>

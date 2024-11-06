@@ -4,7 +4,7 @@
 
 <h2>💻 Tecnologias Usadas:</h2>
 <ul>
-  <li>HTNL</li>
+  <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
